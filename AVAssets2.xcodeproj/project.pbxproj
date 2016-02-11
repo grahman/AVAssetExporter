@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1930A5195B7457003A1DE3 /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = EA1930A3195B7457003A1DE3 /* TPCircularBuffer.c */; };
+		EA1930A8195B76AC003A1DE3 /* GMBSampleBufferDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1930A7195B76AC003A1DE3 /* GMBSampleBufferDelegate.m */; };
+		EA1930C1195C8934003A1DE3 /* GMBUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = EA1930C0195C8934003A1DE3 /* GMBUtil.c */; };
+		EA2A8F7C19881C460046BC47 /* GMBChannelStripView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2A8F7B19881C460046BC47 /* GMBChannelStripView.m */; };
+		EA2C733D196398A900BBE1A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2C733C196398A900BBE1A0 /* Foundation.framework */; };
+		EA2C733F19639AF600BBE1A0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2C733E19639AF600BBE1A0 /* CoreMedia.framework */; };
+		EA2E0FD01995C6E6007AEC41 /* MyCALayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2E0FC51995C6E6007AEC41 /* MyCALayerView.xib */; };
+		EA2E0FD11995C6E6007AEC41 /* MyCALayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2E0FC71995C6E6007AEC41 /* MyCALayerView.m */; };
+		EA2E0FD21995C6E6007AEC41 /* GMBEventHandlerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2E0FC91995C6E6007AEC41 /* GMBEventHandlerView.m */; };
+		EA2E0FD31995C6E6007AEC41 /* GMBSeekPosLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2E0FCB1995C6E6007AEC41 /* GMBSeekPosLayer.m */; };
+		EA2E0FD41995C6E6007AEC41 /* GMBPlayBtnCALayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2E0FCD1995C6E6007AEC41 /* GMBPlayBtnCALayer.m */; };
+		EA2E0FD51995C6E6007AEC41 /* GMBSeekBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2E0FCF1995C6E6007AEC41 /* GMBSeekBarLayer.m */; };
+		EA882FFE1970D4D5003B527E /* GMBAVExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA882FFD1970D4D5003B527E /* GMBAVExporter.m */; };
+		EA90EDFA199934AF00F16596 /* GMBSimplePlayerLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90EDF9199934AF00F16596 /* GMBSimplePlayerLayerView.m */; };
+		EAB01D32198AC42D001CEA87 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB01D31198AC42D001CEA87 /* QuartzCore.framework */; };
+		EAB6FE81196D9CCA00F1ADA4 /* GMBChannelStrip.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB6FE80196D9CCA00F1ADA4 /* GMBChannelStrip.m */; };
+		EAB6FE8A196DA33300F1ADA4 /* MixerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB6FE88196DA33300F1ADA4 /* MixerWindow.m */; };
+		EAB6FE8B196DA33300F1ADA4 /* MixerWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAB6FE89196DA33300F1ADA4 /* MixerWindow.xib */; };
+		EAB81DF1197D7E2900F4FEC7 /* GMBMovieWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB81DEF197D7E2900F4FEC7 /* GMBMovieWindow.m */; };
+		EAB81DF2197D7E2900F4FEC7 /* GMBMovieWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAB81DF0197D7E2900F4FEC7 /* GMBMovieWindow.xib */; };
+		EAB81DF4197D7E5800F4FEC7 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB81DF3197D7E5800F4FEC7 /* AVKit.framework */; };
+		EAC2767F1959FBF9005F4344 /* GMBMixer.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2767E1959FBF9005F4344 /* GMBMixer.m */; };
+		EAC75BEA1989D5D800CC20D9 /* GMBBackgroundTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC75BE91989D5D800CC20D9 /* GMBBackgroundTimer.m */; };
+		EAD3B9C9199AF58900DFC03A /* GMBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD3B9C8199AF58900DFC03A /* GMBObject.m */; };
+		EAF0B197195530740074FB07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF0B196195530740074FB07 /* main.m */; };
+		EAF0B19A195530740074FB07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF0B199195530740074FB07 /* AppDelegate.m */; };
+		EAF0B19C195530740074FB07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF0B19B195530740074FB07 /* Images.xcassets */; };
+		EAF0B19F195530740074FB07 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAF0B19D195530740074FB07 /* MainMenu.xib */; };
+		EAF0B1AB195530740074FB07 /* AVAssets2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF0B1AA195530740074FB07 /* AVAssets2Tests.m */; };
+		EAF0B1B6195530A30074FB07 /* GMBAVAssetParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF0B1B5195530A30074FB07 /* GMBAVAssetParser.m */; };
+		EAF0B1BD195530EC0074FB07 /* GMBAudioChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF0B1B8195530EC0074FB07 /* GMBAudioChannel.m */; };
+		EAF0B1BE195530EC0074FB07 /* GMBAudioStreamBasicDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF0B1BA195530EC0074FB07 /* GMBAudioStreamBasicDescription.m */; };
+		EAF0B1BF195530EC0074FB07 /* GMBDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF0B1BC195530EC0074FB07 /* GMBDelegate.m */; };
+		EAF0B1C1195531230074FB07 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF0B1C0195531230074FB07 /* AudioToolbox.framework */; };
+		EAF0B1C31955312B0074FB07 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF0B1C21955312B0074FB07 /* AudioUnit.framework */; };
+		EAF0B1C8195532360074FB07 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF0B1C7195532360074FB07 /* CoreFoundation.framework */; };
+		EAF0B1CA195532870074FB07 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF0B1C9195532870074FB07 /* AVFoundation.framework */; };
+		EAF0B1CD1955472F0074FB07 /* GMBAUGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF0B1CC1955472F0074FB07 /* GMBAUGraph.m */; };
+		EAF0B1D01955D3E70074FB07 /* CAUtilityFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = EAF0B1CE1955D3E70074FB07 /* CAUtilityFunctions.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAF0B1A5195530740074FB07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF0B189195530740074FB07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF0B190195530740074FB07;
+			remoteInfo = AVAssets2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA1930A3195B7457003A1DE3 /* TPCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TPCircularBuffer.c; sourceTree = "<group>"; };
+		EA1930A4195B7457003A1DE3 /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCircularBuffer.h; sourceTree = "<group>"; };
+		EA1930A6195B76AC003A1DE3 /* GMBSampleBufferDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBSampleBufferDelegate.h; sourceTree = "<group>"; };
+		EA1930A7195B76AC003A1DE3 /* GMBSampleBufferDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBSampleBufferDelegate.m; sourceTree = "<group>"; };
+		EA1930BF195C8929003A1DE3 /* GMBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBUtil.h; sourceTree = "<group>"; };
+		EA1930C0195C8934003A1DE3 /* GMBUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GMBUtil.c; sourceTree = "<group>"; };
+		EA2A8F7A19881C460046BC47 /* GMBChannelStripView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBChannelStripView.h; sourceTree = "<group>"; };
+		EA2A8F7B19881C460046BC47 /* GMBChannelStripView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBChannelStripView.m; sourceTree = "<group>"; };
+		EA2C733C196398A900BBE1A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA2C733E19639AF600BBE1A0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EA2E0FC51995C6E6007AEC41 /* MyCALayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCALayerView.xib; sourceTree = "<group>"; };
+		EA2E0FC61995C6E6007AEC41 /* MyCALayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCALayerView.h; sourceTree = "<group>"; };
+		EA2E0FC71995C6E6007AEC41 /* MyCALayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCALayerView.m; sourceTree = "<group>"; };
+		EA2E0FC81995C6E6007AEC41 /* GMBEventHandlerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBEventHandlerView.h; sourceTree = "<group>"; };
+		EA2E0FC91995C6E6007AEC41 /* GMBEventHandlerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBEventHandlerView.m; sourceTree = "<group>"; };
+		EA2E0FCA1995C6E6007AEC41 /* GMBSeekPosLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBSeekPosLayer.h; sourceTree = "<group>"; };
+		EA2E0FCB1995C6E6007AEC41 /* GMBSeekPosLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBSeekPosLayer.m; sourceTree = "<group>"; };
+		EA2E0FCC1995C6E6007AEC41 /* GMBPlayBtnCALayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBPlayBtnCALayer.h; sourceTree = "<group>"; };
+		EA2E0FCD1995C6E6007AEC41 /* GMBPlayBtnCALayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBPlayBtnCALayer.m; sourceTree = "<group>"; };
+		EA2E0FCE1995C6E6007AEC41 /* GMBSeekBarLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBSeekBarLayer.h; sourceTree = "<group>"; };
+		EA2E0FCF1995C6E6007AEC41 /* GMBSeekBarLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBSeekBarLayer.m; sourceTree = "<group>"; };
+		EA882FFC1970D4D5003B527E /* GMBAVExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBAVExporter.h; sourceTree = "<group>"; };
+		EA882FFD1970D4D5003B527E /* GMBAVExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBAVExporter.m; sourceTree = "<group>"; };
+		EA90EDF8199934AF00F16596 /* GMBSimplePlayerLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBSimplePlayerLayerView.h; sourceTree = "<group>"; };
+		EA90EDF9199934AF00F16596 /* GMBSimplePlayerLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBSimplePlayerLayerView.m; sourceTree = "<group>"; };
+		EAB01D31198AC42D001CEA87 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EAB6FE7F196D9CCA00F1ADA4 /* GMBChannelStrip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBChannelStrip.h; sourceTree = "<group>"; };
+		EAB6FE80196D9CCA00F1ADA4 /* GMBChannelStrip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBChannelStrip.m; sourceTree = "<group>"; };
+		EAB6FE87196DA33300F1ADA4 /* MixerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixerWindow.h; sourceTree = "<group>"; };
+		EAB6FE88196DA33300F1ADA4 /* MixerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixerWindow.m; sourceTree = "<group>"; };
+		EAB6FE89196DA33300F1ADA4 /* MixerWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MixerWindow.xib; sourceTree = "<group>"; };
+		EAB81DEE197D7E2900F4FEC7 /* GMBMovieWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBMovieWindow.h; sourceTree = "<group>"; };
+		EAB81DEF197D7E2900F4FEC7 /* GMBMovieWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBMovieWindow.m; sourceTree = "<group>"; };
+		EAB81DF0197D7E2900F4FEC7 /* GMBMovieWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GMBMovieWindow.xib; sourceTree = "<group>"; };
+		EAB81DF3197D7E5800F4FEC7 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		EAC2767D1959FBF9005F4344 /* GMBMixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBMixer.h; sourceTree = "<group>"; };
+		EAC2767E1959FBF9005F4344 /* GMBMixer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBMixer.m; sourceTree = "<group>"; };
+		EAC75BE81989D5D800CC20D9 /* GMBBackgroundTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBBackgroundTimer.h; sourceTree = "<group>"; };
+		EAC75BE91989D5D800CC20D9 /* GMBBackgroundTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBBackgroundTimer.m; sourceTree = "<group>"; };
+		EAD3B9C7199AF58900DFC03A /* GMBObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBObject.h; sourceTree = "<group>"; };
+		EAD3B9C8199AF58900DFC03A /* GMBObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBObject.m; sourceTree = "<group>"; };
+		EAF0B191195530740074FB07 /* AVAssets2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVAssets2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF0B195195530740074FB07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF0B196195530740074FB07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAF0B198195530740074FB07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAF0B199195530740074FB07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAF0B19B195530740074FB07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAF0B19E195530740074FB07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EAF0B1A4195530740074FB07 /* AVAssets2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVAssets2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF0B1A9195530740074FB07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF0B1AA195530740074FB07 /* AVAssets2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAssets2Tests.m; sourceTree = "<group>"; };
+		EAF0B1B4195530A30074FB07 /* GMBAVAssetParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBAVAssetParser.h; sourceTree = "<group>"; };
+		EAF0B1B5195530A30074FB07 /* GMBAVAssetParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBAVAssetParser.m; sourceTree = "<group>"; };
+		EAF0B1B7195530EC0074FB07 /* GMBAudioChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBAudioChannel.h; sourceTree = "<group>"; };
+		EAF0B1B8195530EC0074FB07 /* GMBAudioChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBAudioChannel.m; sourceTree = "<group>"; };
+		EAF0B1B9195530EC0074FB07 /* GMBAudioStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBAudioStreamBasicDescription.h; sourceTree = "<group>"; };
+		EAF0B1BA195530EC0074FB07 /* GMBAudioStreamBasicDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBAudioStreamBasicDescription.m; sourceTree = "<group>"; };
+		EAF0B1BB195530EC0074FB07 /* GMBDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBDelegate.h; sourceTree = "<group>"; };
+		EAF0B1BC195530EC0074FB07 /* GMBDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBDelegate.m; sourceTree = "<group>"; };
+		EAF0B1C0195531230074FB07 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EAF0B1C21955312B0074FB07 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		EAF0B1C4195531EF0074FB07 /* CommonHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHeaders.h; sourceTree = "<group>"; };
+		EAF0B1C7195532360074FB07 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		EAF0B1C9195532870074FB07 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EAF0B1CB1955472F0074FB07 /* GMBAUGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBAUGraph.h; sourceTree = "<group>"; };
+		EAF0B1CC1955472F0074FB07 /* GMBAUGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBAUGraph.m; sourceTree = "<group>"; };
+		EAF0B1CE1955D3E70074FB07 /* CAUtilityFunctions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CAUtilityFunctions.c; sourceTree = "<group>"; };
+		EAF0B1CF1955D3E70074FB07 /* CAUtilityFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAUtilityFunctions.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAF0B18E195530740074FB07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB01D32198AC42D001CEA87 /* QuartzCore.framework in Frameworks */,
+				EAB81DF4197D7E5800F4FEC7 /* AVKit.framework in Frameworks */,
+				EA2C733F19639AF600BBE1A0 /* CoreMedia.framework in Frameworks */,
+				EA2C733D196398A900BBE1A0 /* Foundation.framework in Frameworks */,
+				EAF0B1CA195532870074FB07 /* AVFoundation.framework in Frameworks */,
+				EAF0B1C8195532360074FB07 /* CoreFoundation.framework in Frameworks */,
+				EAF0B1C31955312B0074FB07 /* AudioUnit.framework in Frameworks */,
+				EAF0B1C1195531230074FB07 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF0B1A1195530740074FB07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA2E0FC41995C6A5007AEC41 /* TransportHUD_src */ = {
+			isa = PBXGroup;
+			children = (
+				EA2E0FC51995C6E6007AEC41 /* MyCALayerView.xib */,
+				EA2E0FC61995C6E6007AEC41 /* MyCALayerView.h */,
+				EA2E0FC71995C6E6007AEC41 /* MyCALayerView.m */,
+				EA2E0FC81995C6E6007AEC41 /* GMBEventHandlerView.h */,
+				EA2E0FC91995C6E6007AEC41 /* GMBEventHandlerView.m */,
+				EA2E0FCA1995C6E6007AEC41 /* GMBSeekPosLayer.h */,
+				EA2E0FCB1995C6E6007AEC41 /* GMBSeekPosLayer.m */,
+				EA2E0FCC1995C6E6007AEC41 /* GMBPlayBtnCALayer.h */,
+				EA2E0FCD1995C6E6007AEC41 /* GMBPlayBtnCALayer.m */,
+				EA2E0FCE1995C6E6007AEC41 /* GMBSeekBarLayer.h */,
+				EA2E0FCF1995C6E6007AEC41 /* GMBSeekBarLayer.m */,
+			);
+			name = TransportHUD_src;
+			sourceTree = "<group>";
+		};
+		EAF0B188195530740074FB07 = {
+			isa = PBXGroup;
+			children = (
+				EAB01D31198AC42D001CEA87 /* QuartzCore.framework */,
+				EAB81DF3197D7E5800F4FEC7 /* AVKit.framework */,
+				EA2C733E19639AF600BBE1A0 /* CoreMedia.framework */,
+				EA2C733C196398A900BBE1A0 /* Foundation.framework */,
+				EAF0B1C9195532870074FB07 /* AVFoundation.framework */,
+				EAF0B1C7195532360074FB07 /* CoreFoundation.framework */,
+				EAF0B1C21955312B0074FB07 /* AudioUnit.framework */,
+				EAF0B1C0195531230074FB07 /* AudioToolbox.framework */,
+				EAF0B193195530740074FB07 /* AVAssets2 */,
+				EAF0B1A7195530740074FB07 /* AVAssets2Tests */,
+				EAF0B192195530740074FB07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAF0B192195530740074FB07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAF0B191195530740074FB07 /* AVAssets2.app */,
+				EAF0B1A4195530740074FB07 /* AVAssets2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAF0B193195530740074FB07 /* AVAssets2 */ = {
+			isa = PBXGroup;
+			children = (
+				EA2E0FC41995C6A5007AEC41 /* TransportHUD_src */,
+				EAF0B1C4195531EF0074FB07 /* CommonHeaders.h */,
+				EAF0B19D195530740074FB07 /* MainMenu.xib */,
+				EAF0B198195530740074FB07 /* AppDelegate.h */,
+				EAF0B199195530740074FB07 /* AppDelegate.m */,
+				EAB81DF0197D7E2900F4FEC7 /* GMBMovieWindow.xib */,
+				EAB81DEE197D7E2900F4FEC7 /* GMBMovieWindow.h */,
+				EAB81DEF197D7E2900F4FEC7 /* GMBMovieWindow.m */,
+				EA90EDF8199934AF00F16596 /* GMBSimplePlayerLayerView.h */,
+				EA90EDF9199934AF00F16596 /* GMBSimplePlayerLayerView.m */,
+				EAF0B1B4195530A30074FB07 /* GMBAVAssetParser.h */,
+				EAF0B1B5195530A30074FB07 /* GMBAVAssetParser.m */,
+				EAD3B9C7199AF58900DFC03A /* GMBObject.h */,
+				EAD3B9C8199AF58900DFC03A /* GMBObject.m */,
+				EA882FFC1970D4D5003B527E /* GMBAVExporter.h */,
+				EA882FFD1970D4D5003B527E /* GMBAVExporter.m */,
+				EAC2767D1959FBF9005F4344 /* GMBMixer.h */,
+				EAC2767E1959FBF9005F4344 /* GMBMixer.m */,
+				EAF0B1CB1955472F0074FB07 /* GMBAUGraph.h */,
+				EAF0B1CC1955472F0074FB07 /* GMBAUGraph.m */,
+				EAB6FE89196DA33300F1ADA4 /* MixerWindow.xib */,
+				EAB6FE87196DA33300F1ADA4 /* MixerWindow.h */,
+				EAB6FE88196DA33300F1ADA4 /* MixerWindow.m */,
+				EAB6FE7F196D9CCA00F1ADA4 /* GMBChannelStrip.h */,
+				EAB6FE80196D9CCA00F1ADA4 /* GMBChannelStrip.m */,
+				EAC75BE81989D5D800CC20D9 /* GMBBackgroundTimer.h */,
+				EAC75BE91989D5D800CC20D9 /* GMBBackgroundTimer.m */,
+				EA2A8F7A19881C460046BC47 /* GMBChannelStripView.h */,
+				EA2A8F7B19881C460046BC47 /* GMBChannelStripView.m */,
+				EAF0B1B7195530EC0074FB07 /* GMBAudioChannel.h */,
+				EAF0B1B8195530EC0074FB07 /* GMBAudioChannel.m */,
+				EA1930A6195B76AC003A1DE3 /* GMBSampleBufferDelegate.h */,
+				EA1930A7195B76AC003A1DE3 /* GMBSampleBufferDelegate.m */,
+				EA1930BF195C8929003A1DE3 /* GMBUtil.h */,
+				EA1930C0195C8934003A1DE3 /* GMBUtil.c */,
+				EAF0B1B9195530EC0074FB07 /* GMBAudioStreamBasicDescription.h */,
+				EAF0B1BA195530EC0074FB07 /* GMBAudioStreamBasicDescription.m */,
+				EAF0B1BB195530EC0074FB07 /* GMBDelegate.h */,
+				EAF0B1BC195530EC0074FB07 /* GMBDelegate.m */,
+				EAF0B1CF1955D3E70074FB07 /* CAUtilityFunctions.h */,
+				EAF0B1CE1955D3E70074FB07 /* CAUtilityFunctions.c */,
+				EA1930A4195B7457003A1DE3 /* TPCircularBuffer.h */,
+				EA1930A3195B7457003A1DE3 /* TPCircularBuffer.c */,
+				EAF0B19B195530740074FB07 /* Images.xcassets */,
+				EAF0B194195530740074FB07 /* Supporting Files */,
+			);
+			path = AVAssets2;
+			sourceTree = "<group>";
+		};
+		EAF0B194195530740074FB07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAF0B195195530740074FB07 /* Info.plist */,
+				EAF0B196195530740074FB07 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAF0B1A7195530740074FB07 /* AVAssets2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF0B1AA195530740074FB07 /* AVAssets2Tests.m */,
+				EAF0B1A8195530740074FB07 /* Supporting Files */,
+			);
+			path = AVAssets2Tests;
+			sourceTree = "<group>";
+		};
+		EAF0B1A8195530740074FB07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAF0B1A9195530740074FB07 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAF0B190195530740074FB07 /* AVAssets2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF0B1AE195530740074FB07 /* Build configuration list for PBXNativeTarget "AVAssets2" */;
+			buildPhases = (
+				EAF0B18D195530740074FB07 /* Sources */,
+				EAF0B18E195530740074FB07 /* Frameworks */,
+				EAF0B18F195530740074FB07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVAssets2;
+			productName = AVAssets2;
+			productReference = EAF0B191195530740074FB07 /* AVAssets2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAF0B1A3195530740074FB07 /* AVAssets2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF0B1B1195530740074FB07 /* Build configuration list for PBXNativeTarget "AVAssets2Tests" */;
+			buildPhases = (
+				EAF0B1A0195530740074FB07 /* Sources */,
+				EAF0B1A1195530740074FB07 /* Frameworks */,
+				EAF0B1A2195530740074FB07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF0B1A6195530740074FB07 /* PBXTargetDependency */,
+			);
+			name = AVAssets2Tests;
+			productName = AVAssets2Tests;
+			productReference = EAF0B1A4195530740074FB07 /* AVAssets2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAF0B189195530740074FB07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Graham Barab";
+				TargetAttributes = {
+					EAF0B190195530740074FB07 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EAF0B1A3195530740074FB07 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = EAF0B190195530740074FB07;
+					};
+				};
+			};
+			buildConfigurationList = EAF0B18C195530740074FB07 /* Build configuration list for PBXProject "AVAssets2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAF0B188195530740074FB07;
+			productRefGroup = EAF0B192195530740074FB07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAF0B190195530740074FB07 /* AVAssets2 */,
+				EAF0B1A3195530740074FB07 /* AVAssets2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAF0B18F195530740074FB07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF0B19C195530740074FB07 /* Images.xcassets in Resources */,
+				EAB81DF2197D7E2900F4FEC7 /* GMBMovieWindow.xib in Resources */,
+				EAB6FE8B196DA33300F1ADA4 /* MixerWindow.xib in Resources */,
+				EAF0B19F195530740074FB07 /* MainMenu.xib in Resources */,
+				EA2E0FD01995C6E6007AEC41 /* MyCALayerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF0B1A2195530740074FB07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAF0B18D195530740074FB07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2E0FD31995C6E6007AEC41 /* GMBSeekPosLayer.m in Sources */,
+				EA1930A5195B7457003A1DE3 /* TPCircularBuffer.c in Sources */,
+				EAF0B1BE195530EC0074FB07 /* GMBAudioStreamBasicDescription.m in Sources */,
+				EAB81DF1197D7E2900F4FEC7 /* GMBMovieWindow.m in Sources */,
+				EA1930C1195C8934003A1DE3 /* GMBUtil.c in Sources */,
+				EA1930A8195B76AC003A1DE3 /* GMBSampleBufferDelegate.m in Sources */,
+				EAB6FE81196D9CCA00F1ADA4 /* GMBChannelStrip.m in Sources */,
+				EAF0B1BF195530EC0074FB07 /* GMBDelegate.m in Sources */,
+				EAD3B9C9199AF58900DFC03A /* GMBObject.m in Sources */,
+				EA2E0FD51995C6E6007AEC41 /* GMBSeekBarLayer.m in Sources */,
+				EAF0B19A195530740074FB07 /* AppDelegate.m in Sources */,
+				EAC2767F1959FBF9005F4344 /* GMBMixer.m in Sources */,
+				EAB6FE8A196DA33300F1ADA4 /* MixerWindow.m in Sources */,
+				EAF0B1BD195530EC0074FB07 /* GMBAudioChannel.m in Sources */,
+				EAF0B1B6195530A30074FB07 /* GMBAVAssetParser.m in Sources */,
+				EAC75BEA1989D5D800CC20D9 /* GMBBackgroundTimer.m in Sources */,
+				EA2E0FD21995C6E6007AEC41 /* GMBEventHandlerView.m in Sources */,
+				EA2E0FD41995C6E6007AEC41 /* GMBPlayBtnCALayer.m in Sources */,
+				EA882FFE1970D4D5003B527E /* GMBAVExporter.m in Sources */,
+				EA90EDFA199934AF00F16596 /* GMBSimplePlayerLayerView.m in Sources */,
+				EAF0B197195530740074FB07 /* main.m in Sources */,
+				EA2A8F7C19881C460046BC47 /* GMBChannelStripView.m in Sources */,
+				EAF0B1D01955D3E70074FB07 /* CAUtilityFunctions.c in Sources */,
+				EA2E0FD11995C6E6007AEC41 /* MyCALayerView.m in Sources */,
+				EAF0B1CD1955472F0074FB07 /* GMBAUGraph.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF0B1A0195530740074FB07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF0B1AB195530740074FB07 /* AVAssets2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAF0B1A6195530740074FB07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAF0B190195530740074FB07 /* AVAssets2 */;
+			targetProxy = EAF0B1A5195530740074FB07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAF0B19D195530740074FB07 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF0B19E195530740074FB07 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAF0B1AC195530740074FB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EAF0B1AD195530740074FB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EAF0B1AF195530740074FB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = AVAssets2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system/introspection",
+				);
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAF0B1B0195530740074FB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = AVAssets2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system/introspection",
+				);
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAF0B1B2195530740074FB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AVAssets2.app/Contents/MacOS/AVAssets2";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AVAssets2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		EAF0B1B3195530740074FB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AVAssets2.app/Contents/MacOS/AVAssets2";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AVAssets2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAF0B18C195530740074FB07 /* Build configuration list for PBXProject "AVAssets2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF0B1AC195530740074FB07 /* Debug */,
+				EAF0B1AD195530740074FB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF0B1AE195530740074FB07 /* Build configuration list for PBXNativeTarget "AVAssets2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF0B1AF195530740074FB07 /* Debug */,
+				EAF0B1B0195530740074FB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF0B1B1195530740074FB07 /* Build configuration list for PBXNativeTarget "AVAssets2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF0B1B2195530740074FB07 /* Debug */,
+				EAF0B1B3195530740074FB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAF0B189195530740074FB07 /* Project object */;
+}
